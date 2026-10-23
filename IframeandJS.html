@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        height: 30px;
+        width: 100px;
+        border: 3px solid purple;
+        color: purple;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: plum;
+    }
+</style>
+<body id="main">
+    <!-- <a href="https://www.tpointtech.com/python-tutorial">Python</a> -->
+     <!-- <iframe src="https://www.tpointtech.com/python-tutorial" height="400px" width="400px" frameborder="0"></iframe> -->
+      <!-- <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15119.410852742216!2d73.72297174729067!3d18.67060421923368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b0bae3d254e1%3A0x8488413f6e70df4!2sVikas%20Nagar%2C%20Dehu%20Road%2C%20Maharashtra%20412101!5e0!3m2!1sen!2sin!4v1792757267587!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div> -->
+      <input type="text" placeholder="Enter your name" id="inp">
+      <button onclick="Create()">Start</button>
+</body>
+<script>
+    const Create = () =>{
+        // let red = Math.floor(Math.random()*255)
+        // let green = Math.floor(Math.random()*255)
+        // let blue = Math.floor(Math.random()*255)
+        // const MainElem = document.getElementById("main")
+        // MainElem.style.backgroundColor=`rgb(${red},${green},${blue})`
+        const Name = document.getElementById("inp").value;
+        alert("Hello "+Name)
+    }
+</script>
+</html>
